@@ -1,3 +1,3 @@
-$(".dropdown").click(function() {
-  $(".dropdown-menu").toggle();
+$(".dropdown").hover(function() {
+  $(this).find(".dropdown-menu").toggle();
 });
